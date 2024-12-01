@@ -1,0 +1,34 @@
+@charset "utf-8";
+#menu{width: 900px;
+height:50px;
+margin: auto auto;
+border-bottom: 1px solid #BABABA;
+box-shadow: 0px 2px 2px 2px #BABABA;}
+ul {
+List-style:none;}
+ul li{
+height: 50px;
+float: left;
+display: block;
+background-color: #FFF;
+padding: 0px 10px;
+Line-height: 50px;
+position:relative;
+}
+ul li a{
+color: #BABABA;
+text-decoration:none;
+}
+ul li:hover{
+background-color:#C5D8F3;
+}
+ul li ul{
+position:absolute;
+Left:-40px;
+top: 50px;
+display:none;}
+li ul li{width:100px;
+height:40px;}
+Ul li:hover ul{
+display:block;
+}
